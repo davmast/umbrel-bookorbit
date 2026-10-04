@@ -1,0 +1,5 @@
+services:
+  app_proxy:
+    enviroment:
+      APP_HOST: host.docker.internal
+      APP_PORT: 3000
