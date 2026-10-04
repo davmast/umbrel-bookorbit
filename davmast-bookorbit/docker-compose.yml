@@ -1,5 +1,10 @@
 services:
+  launcher:
+    image: alpine:latest
+    command: ["sh", "-c", "while true; do sleep 3600; done"]
+    restart: unless-stopped
+
   app_proxy:
-    enviroment:
+    environment:
       APP_HOST: 192.168.4.77
       APP_PORT: 3000
