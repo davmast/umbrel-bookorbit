@@ -1,6 +1,7 @@
 manifestVersion: 1.1
 id: davmast-bookorbit
 name: BookOrbit
+icon: https://raw.githubusercontent.com/davmast/umbrel-bookorbit/main/davmast-bookorbit/icon.png
 tagline: Personal digital book library
 category: files
 version: "1.0.0"
